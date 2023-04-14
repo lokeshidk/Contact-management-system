@@ -2,7 +2,6 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="contacts.css">
-	<link rel="stylesheet" href="./style.css">
 <?php 
 session_start();
 if(!isset($_SESSION['logged']) && $_SESSION['logged'] != true){
